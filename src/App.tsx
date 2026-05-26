@@ -80,9 +80,9 @@ export default function App() {
           <div className="brand">
             <span className="brand-dot" />
             <div>
-              <h1>Solana Memecoins</h1>
+              <h1>Sol meme info tracker</h1>
               <p className="tagline">
-                Solana memecoins with a DEXScreener profile
+                Solana memecoins with essential informatiom to purchase coins.I am not responsible for any kind of scams or losses.
               </p>
             </div>
           </div>
@@ -108,12 +108,11 @@ export default function App() {
       </header>
 
       <main className="main">
-        <aside className="notice">
-          <strong>Profiled memecoins only.</strong> Tokens must have a
-          DEXScreener token profile (icon, links, etc.). Pump.fun, LaunchLab,
-          and similar launchpads; majors like SOL and BONK are excluded. Refreshes
-          every 60 seconds.
-        </aside>
+
+        
+         <aside className="notice">
+           <strong>Disclaimer</strong> I am not responsible for any financial losses. Do your own research before interacting with any of these tokens.This site will give you data about the coin.
+         </aside>
 
         <Filters
           search={search}
@@ -150,8 +149,13 @@ export default function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          DEXScreener API
-        </a>
+          DEXScreener API {" "} </a>and{" "}
+          <a
+          href="https://api.rugcheck.xyz"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Rugcheck.xyz API</a>
+        
         . Not financial advice.
       </footer>
     </div>
